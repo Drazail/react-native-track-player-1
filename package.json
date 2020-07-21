@@ -76,7 +76,7 @@
   "name": "react-native-track-player",
   "peerDependencies": {
     "react": ">=16.8.6",
-    "react-native": ">=0.60.0-rc.2"
+    "react-native": "^0.63.1"
   },
   "repository": {
     "type": "git",
@@ -95,6 +95,6 @@
   "types": "lib/index.d.ts",
   "version": "1.2.0",
   "dependencies": {
-    "react-native": "^0.61.5"
+    "react-native": "^0.63.1"
   }
 }
