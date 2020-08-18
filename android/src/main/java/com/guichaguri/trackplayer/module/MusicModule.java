@@ -696,7 +696,7 @@ public class MusicModule extends ReactContextBaseJavaModule implements ServiceCo
     }
 
     @ReactMethod
-    public void getCacheSpace(final Promise callback) {
+    public void getCachedSpace(final Promise callback) {
         waitForConnection(() -> callback.resolve((int)binder.getPlayback().getCacheSpace()));
     }
 
