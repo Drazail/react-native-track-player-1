@@ -93,5 +93,7 @@ declare const _default: {
     getRepeatMode: typeof getRepeatMode;
     download: typeof download;
     getCachedStatus: typeof getCachedStatus;
+    getCachedSpace: typeof getCachedSpace;
+
 };
 export default _default;
